@@ -7,8 +7,8 @@ import Pencil from "assets/icons/pencil.svg";
 import ArrowDown from "assets/icons/arrow-down.svg";
 import ArrowUp from "assets/icons/arrow-up.svg";
 import { getOverallComment } from "@/utils/util";
+import Button from "@/components/shared/Button/Button";
 import ProgressBar from "../ProgressBar/ProgressBar";
-import Button from "../../../shared/Button/Button";
 import * as S from "./OverallStats.styled";
 
 export interface IOverallStats {
