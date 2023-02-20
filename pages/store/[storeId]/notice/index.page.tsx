@@ -1,11 +1,11 @@
 import React from "react";
-import NoticeInfo from "@/components/store/infoTable/NoticeInfo/NoticeInfo";
 import { store } from "@/mocks/mockData/store";
-import StoreHero from "@/components/store/StoreHero/StoreHero";
 import { storeTab } from "@/constants/navigations";
 import Tab from "@/components/shared/Tab/Tab";
-import PickupHours from "@/components/store/infoTable/PickupHours/PickupHours";
-import Packaging from "@/components/store/infoTable/Packaging/Packaging";
+import NoticeInfo from "@/components/infoTable/NoticeInfo/NoticeInfo";
+import StoreHero from "@/components/StoreHero/StoreHero";
+import Packaging from "@/components/infoTable/Packaging/Packaging";
+import PickupHours from "@/components/infoTable/PickupHours/PickupHours";
 import * as S from "./notice.styled";
 
 const NOTICE_INFO = "업체 공지";

@@ -1,8 +1,8 @@
-import { store } from "@/mocks/mockData/store";
-import StoreHero from "@/components/store/StoreHero/StoreHero";
+import TableBox from "@/components/infoTable/TableBox/TableBox";
 import Tab from "@/components/shared/Tab/Tab";
-import TableBox from "@/components/store/infoTable/TableBox/TableBox";
+import StoreHero from "@/components/StoreHero/StoreHero";
 import { storeTab } from "@/constants/navigations";
+import { store } from "@/mocks/mockData/store";
 import * as S from "./info.styled";
 
 const SELLER_INFO = "판매자 정보";
