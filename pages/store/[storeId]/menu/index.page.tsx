@@ -5,7 +5,7 @@ import Card from "@/components/shared/Card/Card";
 import Tab from "@/components/shared/Tab/Tab";
 import { storeTab } from "@/constants/navigations";
 import { menuList } from "@/mocks/mockData/menuList";
-import StoreHero from "@/components/StoreHero/StoreHero";
+import StoreHero from "@/components/store/StoreHero/StoreHero";
 import * as S from "./menu.styled";
 
 function MenuPage() {

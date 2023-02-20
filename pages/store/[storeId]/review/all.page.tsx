@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import OverallStats from "@/components/review/OverallStats/OverallStats";
-import Review from "@/components/review/Review/Review";
+
+import OverallStats from "@/components/store/review/OverallStats/OverallStats";
+import Review from "@/components/store/review/Review/Review";
 import { reviews } from "@/mocks/mockData/review";
 import * as S from "./review.styled";
 

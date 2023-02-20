@@ -11,8 +11,8 @@ import Icon from "@/components/shared/Icon/Icon";
 import { storeMenuTab } from "@/constants/navigations";
 
 import { Caution, Size, Option, Flavor } from "@/assets/images/index";
-import MenuHero from "@/components/MenuHero/MenuHero";
-import Review from "@/components/review/Review/Review";
+import MenuHero from "@/components/store/MenuHero/MenuHero";
+import Review from "@/components/store/review/Review/Review";
 import * as S from "./menuItem.styled";
 
 function MenuDetailsPage() {
