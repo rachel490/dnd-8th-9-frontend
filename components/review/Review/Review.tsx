@@ -6,8 +6,8 @@ import Like from "assets/icons/like.svg";
 import Heart from "assets/icons/heart.svg";
 import ArrowDown from "assets/icons/arrow-down.svg";
 import ArrowUp from "assets/icons/arrow-up.svg";
+import Tag from "@/components/shared/Tag/Tag";
 import * as S from "./Review.styled";
-import Tag from "../../../shared/Tag/Tag";
 
 export interface IReview {
   review: {
