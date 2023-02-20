@@ -8,8 +8,8 @@ import Tab from "@/components/shared/Tab/Tab";
 import Button from "@/components/shared/Button/Button";
 import Icon from "@/components/shared/Icon/Icon";
 import StoreHero from "@/components/StoreHero/StoreHero";
-import OverallStats from "@/components/review/OverallStats/OverallStats";
-import Review from "@/components/review/Review/Review";
+import OverallStats from "@/components/shared/Text/Test/review/OverallStats/OverallStats";
+import Review from "@/components/shared/Text/Test/review/Review/Review";
 import * as S from "./review.styled";
 
 function ReviewPage() {
